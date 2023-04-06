@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+}
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3{
+    text-align: center;
+}
+.container{
+    margin:30px auto;
+    width: 360px;
+    height: 360px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.container div{
+    border:2px solid red;
+    font-size: 100px;
+    text-align: center;
+}
+.restart:hover{
+    cursor: POINTER;
+}
